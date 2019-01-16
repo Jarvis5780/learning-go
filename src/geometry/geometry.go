@@ -27,6 +27,7 @@ func main() {
 	/*Diagonal function of rectangle package used*/
 	fmt.Println("diagonal of the rectangle %.2f ", rectangle.Diagonal(rectLen, rectWidth))
 
+	rectangle.Show()
 	if rectLen>10 {
 		fmt.Println("rectLen > 10")
 	}else if rectLen>5 && rectLen<=10 {
