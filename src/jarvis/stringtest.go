@@ -4,7 +4,7 @@ import "fmt"
 
 func showeves(stringA string)  {
 	for i,v:=range stringA {
-		fmt.Printf("当前第%d个字符串为%c\n",i,v);
+		fmt.Printf("当前 第%d个字符串为%c\n",i,v);
 	}
 
 }

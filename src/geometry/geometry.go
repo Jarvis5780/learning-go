@@ -22,7 +22,7 @@ func init() {
 
 func main() {
 	fmt.Println("Geometrical shape properties")
-	/*Area function of rectangle package used*/
+	/*Area  function of rectangle package used*/
 	fmt.Println("area of rectangle %.2f\n", rectangle.Area(rectLen, rectWidth))
 	/*Diagonal function of rectangle package used*/
 	fmt.Println("diagonal of the rectangle %.2f ", rectangle.Diagonal(rectLen, rectWidth))

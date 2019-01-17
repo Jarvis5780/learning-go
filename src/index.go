@@ -6,7 +6,7 @@ func main() {
 	app := iris.Default()
 	app.Get("/", func(ctx iris.Context) {
 		ctx.JSON(iris.Map{
-			"message": "hello iris",
+			"message": "hello iris ",
 		})
 	})
 	// listen and serve on http://0.0.0.0:8080.
